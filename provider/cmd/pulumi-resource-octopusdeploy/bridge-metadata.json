@@ -1,0 +1,2451 @@
+{
+    "auto-aliasing": {
+        "resources": {
+            "octopusdeploy_aws_account": {
+                "current": "octopusdeploy:index/awsAccount:AwsAccount",
+                "fields": {
+                    "environments": {
+                        "maxItemsOne": false
+                    },
+                    "tenant_tags": {
+                        "maxItemsOne": false
+                    },
+                    "tenants": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "octopusdeploy_aws_openid_connect_account": {
+                "current": "octopusdeploy:index/awsOpenidConnectAccount:AwsOpenidConnectAccount",
+                "fields": {
+                    "account_test_subject_keys": {
+                        "maxItemsOne": false
+                    },
+                    "environments": {
+                        "maxItemsOne": false
+                    },
+                    "execution_subject_keys": {
+                        "maxItemsOne": false
+                    },
+                    "health_subject_keys": {
+                        "maxItemsOne": false
+                    },
+                    "tenant_tags": {
+                        "maxItemsOne": false
+                    },
+                    "tenants": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "octopusdeploy_azure_cloud_service_deployment_target": {
+                "current": "octopusdeploy:index/azureCloudServiceDeploymentTarget:AzureCloudServiceDeploymentTarget",
+                "fields": {
+                    "endpoint": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "authentication": {
+                                    "maxItemsOne": true
+                                },
+                                "container": {
+                                    "maxItemsOne": false
+                                },
+                                "destination": {
+                                    "maxItemsOne": false
+                                },
+                                "tentacle_version_details": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "environments": {
+                        "maxItemsOne": false
+                    },
+                    "roles": {
+                        "maxItemsOne": false
+                    },
+                    "tenant_tags": {
+                        "maxItemsOne": false
+                    },
+                    "tenants": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "octopusdeploy_azure_openid_connect": {
+                "current": "octopusdeploy:index/azureOpenidConnect:AzureOpenidConnect",
+                "fields": {
+                    "account_test_subject_keys": {
+                        "maxItemsOne": false
+                    },
+                    "environments": {
+                        "maxItemsOne": false
+                    },
+                    "execution_subject_keys": {
+                        "maxItemsOne": false
+                    },
+                    "health_subject_keys": {
+                        "maxItemsOne": false
+                    },
+                    "tenant_tags": {
+                        "maxItemsOne": false
+                    },
+                    "tenants": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "octopusdeploy_azure_service_fabric_cluster_deployment_target": {
+                "current": "octopusdeploy:index/azureServiceFabricClusterDeploymentTarget:AzureServiceFabricClusterDeploymentTarget",
+                "fields": {
+                    "endpoint": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "authentication": {
+                                    "maxItemsOne": true
+                                },
+                                "container": {
+                                    "maxItemsOne": false
+                                },
+                                "destination": {
+                                    "maxItemsOne": false
+                                },
+                                "tentacle_version_details": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "environments": {
+                        "maxItemsOne": false
+                    },
+                    "roles": {
+                        "maxItemsOne": false
+                    },
+                    "tenant_tags": {
+                        "maxItemsOne": false
+                    },
+                    "tenants": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "octopusdeploy_azure_service_principal": {
+                "current": "octopusdeploy:index/azureServicePrincipal:AzureServicePrincipal",
+                "fields": {
+                    "environments": {
+                        "maxItemsOne": false
+                    },
+                    "tenant_tags": {
+                        "maxItemsOne": false
+                    },
+                    "tenants": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "octopusdeploy_azure_subscription_account": {
+                "current": "octopusdeploy:index/azureSubscriptionAccount:AzureSubscriptionAccount",
+                "fields": {
+                    "environments": {
+                        "maxItemsOne": false
+                    },
+                    "tenant_tags": {
+                        "maxItemsOne": false
+                    },
+                    "tenants": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "octopusdeploy_azure_web_app_deployment_target": {
+                "current": "octopusdeploy:index/azureWebAppDeploymentTarget:AzureWebAppDeploymentTarget",
+                "fields": {
+                    "endpoint": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "authentication": {
+                                    "maxItemsOne": true
+                                },
+                                "container": {
+                                    "maxItemsOne": false
+                                },
+                                "destination": {
+                                    "maxItemsOne": false
+                                },
+                                "tentacle_version_details": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "environments": {
+                        "maxItemsOne": false
+                    },
+                    "roles": {
+                        "maxItemsOne": false
+                    },
+                    "tenant_tags": {
+                        "maxItemsOne": false
+                    },
+                    "tenants": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "octopusdeploy_certificate": {
+                "current": "octopusdeploy:index/certificate:Certificate",
+                "fields": {
+                    "environments": {
+                        "maxItemsOne": false
+                    },
+                    "subject_alternative_names": {
+                        "maxItemsOne": false
+                    },
+                    "tenant_tags": {
+                        "maxItemsOne": false
+                    },
+                    "tenants": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "octopusdeploy_channel": {
+                "current": "octopusdeploy:index/channel:Channel",
+                "fields": {
+                    "rule": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "action_package": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "tenant_tags": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "octopusdeploy_cloud_region_deployment_target": {
+                "current": "octopusdeploy:index/cloudRegionDeploymentTarget:CloudRegionDeploymentTarget",
+                "fields": {
+                    "endpoint": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "authentication": {
+                                    "maxItemsOne": true
+                                },
+                                "container": {
+                                    "maxItemsOne": false
+                                },
+                                "destination": {
+                                    "maxItemsOne": false
+                                },
+                                "tentacle_version_details": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "environments": {
+                        "maxItemsOne": false
+                    },
+                    "roles": {
+                        "maxItemsOne": false
+                    },
+                    "tenant_tags": {
+                        "maxItemsOne": false
+                    },
+                    "tenants": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "octopusdeploy_deployment_process": {
+                "current": "octopusdeploy:index/deploymentProcess:DeploymentProcess",
+                "fields": {
+                    "step": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "action": {
+                                    "maxItemsOne": false,
+                                    "elem": {
+                                        "fields": {
+                                            "action_template": {
+                                                "maxItemsOne": true
+                                            },
+                                            "channels": {
+                                                "maxItemsOne": false
+                                            },
+                                            "container": {
+                                                "maxItemsOne": false
+                                            },
+                                            "environments": {
+                                                "maxItemsOne": false
+                                            },
+                                            "excluded_environments": {
+                                                "maxItemsOne": false
+                                            },
+                                            "features": {
+                                                "maxItemsOne": false
+                                            },
+                                            "git_dependency": {
+                                                "maxItemsOne": true,
+                                                "elem": {
+                                                    "fields": {
+                                                        "file_path_filters": {
+                                                            "maxItemsOne": false
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "package": {
+                                                "maxItemsOne": false
+                                            },
+                                            "primary_package": {
+                                                "maxItemsOne": true
+                                            },
+                                            "tenant_tags": {
+                                                "maxItemsOne": false
+                                            }
+                                        }
+                                    }
+                                },
+                                "apply_terraform_template_action": {
+                                    "maxItemsOne": false,
+                                    "elem": {
+                                        "fields": {
+                                            "action_template": {
+                                                "maxItemsOne": true
+                                            },
+                                            "advanced_options": {
+                                                "maxItemsOne": true
+                                            },
+                                            "aws_account": {
+                                                "maxItemsOne": true,
+                                                "elem": {
+                                                    "fields": {
+                                                        "role": {
+                                                            "maxItemsOne": true
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "azure_account": {
+                                                "maxItemsOne": true
+                                            },
+                                            "channels": {
+                                                "maxItemsOne": false
+                                            },
+                                            "container": {
+                                                "maxItemsOne": false
+                                            },
+                                            "environments": {
+                                                "maxItemsOne": false
+                                            },
+                                            "excluded_environments": {
+                                                "maxItemsOne": false
+                                            },
+                                            "features": {
+                                                "maxItemsOne": false
+                                            },
+                                            "git_dependency": {
+                                                "maxItemsOne": true,
+                                                "elem": {
+                                                    "fields": {
+                                                        "file_path_filters": {
+                                                            "maxItemsOne": false
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "google_cloud_account": {
+                                                "maxItemsOne": true
+                                            },
+                                            "package": {
+                                                "maxItemsOne": false
+                                            },
+                                            "primary_package": {
+                                                "maxItemsOne": true
+                                            },
+                                            "template": {
+                                                "maxItemsOne": true
+                                            },
+                                            "tenant_tags": {
+                                                "maxItemsOne": false
+                                            }
+                                        }
+                                    }
+                                },
+                                "deploy_kubernetes_secret_action": {
+                                    "maxItemsOne": false,
+                                    "elem": {
+                                        "fields": {
+                                            "action_template": {
+                                                "maxItemsOne": true
+                                            },
+                                            "channels": {
+                                                "maxItemsOne": false
+                                            },
+                                            "container": {
+                                                "maxItemsOne": false
+                                            },
+                                            "environments": {
+                                                "maxItemsOne": false
+                                            },
+                                            "excluded_environments": {
+                                                "maxItemsOne": false
+                                            },
+                                            "features": {
+                                                "maxItemsOne": false
+                                            },
+                                            "git_dependency": {
+                                                "maxItemsOne": true,
+                                                "elem": {
+                                                    "fields": {
+                                                        "file_path_filters": {
+                                                            "maxItemsOne": false
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "package": {
+                                                "maxItemsOne": false
+                                            },
+                                            "tenant_tags": {
+                                                "maxItemsOne": false
+                                            }
+                                        }
+                                    }
+                                },
+                                "deploy_package_action": {
+                                    "maxItemsOne": false,
+                                    "elem": {
+                                        "fields": {
+                                            "action_template": {
+                                                "maxItemsOne": true
+                                            },
+                                            "channels": {
+                                                "maxItemsOne": false
+                                            },
+                                            "container": {
+                                                "maxItemsOne": false
+                                            },
+                                            "environments": {
+                                                "maxItemsOne": false
+                                            },
+                                            "excluded_environments": {
+                                                "maxItemsOne": false
+                                            },
+                                            "features": {
+                                                "maxItemsOne": false
+                                            },
+                                            "git_dependency": {
+                                                "maxItemsOne": true,
+                                                "elem": {
+                                                    "fields": {
+                                                        "file_path_filters": {
+                                                            "maxItemsOne": false
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "package": {
+                                                "maxItemsOne": false
+                                            },
+                                            "primary_package": {
+                                                "maxItemsOne": true
+                                            },
+                                            "tenant_tags": {
+                                                "maxItemsOne": false
+                                            },
+                                            "windows_service": {
+                                                "maxItemsOne": true
+                                            }
+                                        }
+                                    }
+                                },
+                                "deploy_windows_service_action": {
+                                    "maxItemsOne": false,
+                                    "elem": {
+                                        "fields": {
+                                            "action_template": {
+                                                "maxItemsOne": true
+                                            },
+                                            "channels": {
+                                                "maxItemsOne": false
+                                            },
+                                            "container": {
+                                                "maxItemsOne": false
+                                            },
+                                            "environments": {
+                                                "maxItemsOne": false
+                                            },
+                                            "excluded_environments": {
+                                                "maxItemsOne": false
+                                            },
+                                            "features": {
+                                                "maxItemsOne": false
+                                            },
+                                            "git_dependency": {
+                                                "maxItemsOne": true,
+                                                "elem": {
+                                                    "fields": {
+                                                        "file_path_filters": {
+                                                            "maxItemsOne": false
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "package": {
+                                                "maxItemsOne": false
+                                            },
+                                            "primary_package": {
+                                                "maxItemsOne": true
+                                            },
+                                            "tenant_tags": {
+                                                "maxItemsOne": false
+                                            }
+                                        }
+                                    }
+                                },
+                                "manual_intervention_action": {
+                                    "maxItemsOne": false,
+                                    "elem": {
+                                        "fields": {
+                                            "action_template": {
+                                                "maxItemsOne": true
+                                            },
+                                            "channels": {
+                                                "maxItemsOne": false
+                                            },
+                                            "container": {
+                                                "maxItemsOne": false
+                                            },
+                                            "environments": {
+                                                "maxItemsOne": false
+                                            },
+                                            "excluded_environments": {
+                                                "maxItemsOne": false
+                                            },
+                                            "features": {
+                                                "maxItemsOne": false
+                                            },
+                                            "git_dependency": {
+                                                "maxItemsOne": true,
+                                                "elem": {
+                                                    "fields": {
+                                                        "file_path_filters": {
+                                                            "maxItemsOne": false
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "package": {
+                                                "maxItemsOne": false
+                                            },
+                                            "tenant_tags": {
+                                                "maxItemsOne": false
+                                            }
+                                        }
+                                    }
+                                },
+                                "run_kubectl_script_action": {
+                                    "maxItemsOne": false,
+                                    "elem": {
+                                        "fields": {
+                                            "action_template": {
+                                                "maxItemsOne": true
+                                            },
+                                            "channels": {
+                                                "maxItemsOne": false
+                                            },
+                                            "container": {
+                                                "maxItemsOne": false
+                                            },
+                                            "environments": {
+                                                "maxItemsOne": false
+                                            },
+                                            "excluded_environments": {
+                                                "maxItemsOne": false
+                                            },
+                                            "features": {
+                                                "maxItemsOne": false
+                                            },
+                                            "git_dependency": {
+                                                "maxItemsOne": true,
+                                                "elem": {
+                                                    "fields": {
+                                                        "file_path_filters": {
+                                                            "maxItemsOne": false
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "package": {
+                                                "maxItemsOne": false
+                                            },
+                                            "primary_package": {
+                                                "maxItemsOne": true
+                                            },
+                                            "tenant_tags": {
+                                                "maxItemsOne": false
+                                            }
+                                        }
+                                    }
+                                },
+                                "run_script_action": {
+                                    "maxItemsOne": false,
+                                    "elem": {
+                                        "fields": {
+                                            "action_template": {
+                                                "maxItemsOne": true
+                                            },
+                                            "channels": {
+                                                "maxItemsOne": false
+                                            },
+                                            "container": {
+                                                "maxItemsOne": false
+                                            },
+                                            "environments": {
+                                                "maxItemsOne": false
+                                            },
+                                            "excluded_environments": {
+                                                "maxItemsOne": false
+                                            },
+                                            "features": {
+                                                "maxItemsOne": false
+                                            },
+                                            "git_dependency": {
+                                                "maxItemsOne": true,
+                                                "elem": {
+                                                    "fields": {
+                                                        "file_path_filters": {
+                                                            "maxItemsOne": false
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "package": {
+                                                "maxItemsOne": false
+                                            },
+                                            "primary_package": {
+                                                "maxItemsOne": true
+                                            },
+                                            "tenant_tags": {
+                                                "maxItemsOne": false
+                                            }
+                                        }
+                                    }
+                                },
+                                "target_roles": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "octopusdeploy_dynamic_worker_pool": {
+                "current": "octopusdeploy:index/dynamicWorkerPool:DynamicWorkerPool"
+            },
+            "octopusdeploy_external_feed_create_release_trigger": {
+                "current": "octopusdeploy:index/externalFeedCreateReleaseTrigger:ExternalFeedCreateReleaseTrigger",
+                "fields": {
+                    "package": {
+                        "maxItemsOne": false
+                    },
+                    "primary_package": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "octopusdeploy_gcp_account": {
+                "current": "octopusdeploy:index/gcpAccount:GcpAccount",
+                "fields": {
+                    "environments": {
+                        "maxItemsOne": false
+                    },
+                    "tenant_tags": {
+                        "maxItemsOne": false
+                    },
+                    "tenants": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "octopusdeploy_kubernetes_agent_deployment_target": {
+                "current": "octopusdeploy:index/kubernetesAgentDeploymentTarget:KubernetesAgentDeploymentTarget",
+                "fields": {
+                    "environments": {
+                        "maxItemsOne": false
+                    },
+                    "roles": {
+                        "maxItemsOne": false
+                    },
+                    "tenant_tags": {
+                        "maxItemsOne": false
+                    },
+                    "tenants": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "octopusdeploy_kubernetes_agent_worker": {
+                "current": "octopusdeploy:index/kubernetesAgentWorker:KubernetesAgentWorker",
+                "fields": {
+                    "worker_pool_ids": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "octopusdeploy_kubernetes_cluster_deployment_target": {
+                "current": "octopusdeploy:index/kubernetesClusterDeploymentTarget:KubernetesClusterDeploymentTarget",
+                "fields": {
+                    "authentication": {
+                        "maxItemsOne": true
+                    },
+                    "aws_account_authentication": {
+                        "maxItemsOne": true
+                    },
+                    "azure_service_principal_authentication": {
+                        "maxItemsOne": true
+                    },
+                    "certificate_authentication": {
+                        "maxItemsOne": true
+                    },
+                    "container": {
+                        "maxItemsOne": false
+                    },
+                    "endpoint": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "authentication": {
+                                    "maxItemsOne": true
+                                },
+                                "container": {
+                                    "maxItemsOne": false
+                                },
+                                "destination": {
+                                    "maxItemsOne": false
+                                },
+                                "tentacle_version_details": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "environments": {
+                        "maxItemsOne": false
+                    },
+                    "gcp_account_authentication": {
+                        "maxItemsOne": true
+                    },
+                    "pod_authentication": {
+                        "maxItemsOne": true
+                    },
+                    "roles": {
+                        "maxItemsOne": false
+                    },
+                    "tenant_tags": {
+                        "maxItemsOne": false
+                    },
+                    "tenants": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "octopusdeploy_listening_tentacle_deployment_target": {
+                "current": "octopusdeploy:index/listeningTentacleDeploymentTarget:ListeningTentacleDeploymentTarget",
+                "fields": {
+                    "environments": {
+                        "maxItemsOne": false
+                    },
+                    "roles": {
+                        "maxItemsOne": false
+                    },
+                    "tenant_tags": {
+                        "maxItemsOne": false
+                    },
+                    "tenants": {
+                        "maxItemsOne": false
+                    },
+                    "tentacle_version_details": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "octopusdeploy_machine_policy": {
+                "current": "octopusdeploy:index/machinePolicy:MachinePolicy",
+                "fields": {
+                    "machine_cleanup_policy": {
+                        "maxItemsOne": true
+                    },
+                    "machine_connectivity_policy": {
+                        "maxItemsOne": true
+                    },
+                    "machine_health_check_policy": {
+                        "maxItemsOne": true,
+                        "elem": {
+                            "fields": {
+                                "bash_health_check_policy": {
+                                    "maxItemsOne": true
+                                },
+                                "powershell_health_check_policy": {
+                                    "maxItemsOne": true
+                                }
+                            }
+                        }
+                    },
+                    "machine_update_policy": {
+                        "maxItemsOne": true
+                    }
+                }
+            },
+            "octopusdeploy_offline_package_drop_deployment_target": {
+                "current": "octopusdeploy:index/offlinePackageDropDeploymentTarget:OfflinePackageDropDeploymentTarget",
+                "fields": {
+                    "destination": {
+                        "maxItemsOne": true
+                    },
+                    "endpoint": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "authentication": {
+                                    "maxItemsOne": true
+                                },
+                                "container": {
+                                    "maxItemsOne": false
+                                },
+                                "destination": {
+                                    "maxItemsOne": false
+                                },
+                                "tentacle_version_details": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "environments": {
+                        "maxItemsOne": false
+                    },
+                    "roles": {
+                        "maxItemsOne": false
+                    },
+                    "tenant_tags": {
+                        "maxItemsOne": false
+                    },
+                    "tenants": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "octopusdeploy_polling_subscription_id": {
+                "current": "octopusdeploy:index/pollingSubscriptionId:PollingSubscriptionId"
+            },
+            "octopusdeploy_polling_tentacle_deployment_target": {
+                "current": "octopusdeploy:index/pollingTentacleDeploymentTarget:PollingTentacleDeploymentTarget",
+                "fields": {
+                    "endpoint": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "authentication": {
+                                    "maxItemsOne": true
+                                },
+                                "container": {
+                                    "maxItemsOne": false
+                                },
+                                "destination": {
+                                    "maxItemsOne": false
+                                },
+                                "tentacle_version_details": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "environments": {
+                        "maxItemsOne": false
+                    },
+                    "roles": {
+                        "maxItemsOne": false
+                    },
+                    "tenant_tags": {
+                        "maxItemsOne": false
+                    },
+                    "tenants": {
+                        "maxItemsOne": false
+                    },
+                    "tentacle_version_details": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "octopusdeploy_project_deployment_target_trigger": {
+                "current": "octopusdeploy:index/projectDeploymentTargetTrigger:ProjectDeploymentTargetTrigger",
+                "fields": {
+                    "environment_ids": {
+                        "maxItemsOne": false
+                    },
+                    "event_categories": {
+                        "maxItemsOne": false
+                    },
+                    "event_groups": {
+                        "maxItemsOne": false
+                    },
+                    "roles": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "octopusdeploy_project_scheduled_trigger": {
+                "current": "octopusdeploy:index/projectScheduledTrigger:ProjectScheduledTrigger",
+                "fields": {
+                    "continuous_daily_schedule": {
+                        "maxItemsOne": true,
+                        "elem": {
+                            "fields": {
+                                "days_of_week": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "cron_expression_schedule": {
+                        "maxItemsOne": true
+                    },
+                    "days_per_month_schedule": {
+                        "maxItemsOne": true
+                    },
+                    "deploy_latest_release_action": {
+                        "maxItemsOne": true
+                    },
+                    "deploy_new_release_action": {
+                        "maxItemsOne": true
+                    },
+                    "once_daily_schedule": {
+                        "maxItemsOne": true,
+                        "elem": {
+                            "fields": {
+                                "days_of_week": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "run_runbook_action": {
+                        "maxItemsOne": true,
+                        "elem": {
+                            "fields": {
+                                "target_environment_ids": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "tenant_ids": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "octopusdeploy_runbook_process": {
+                "current": "octopusdeploy:index/runbookProcess:RunbookProcess",
+                "fields": {
+                    "step": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "action": {
+                                    "maxItemsOne": false,
+                                    "elem": {
+                                        "fields": {
+                                            "action_template": {
+                                                "maxItemsOne": true
+                                            },
+                                            "channels": {
+                                                "maxItemsOne": false
+                                            },
+                                            "container": {
+                                                "maxItemsOne": false
+                                            },
+                                            "environments": {
+                                                "maxItemsOne": false
+                                            },
+                                            "excluded_environments": {
+                                                "maxItemsOne": false
+                                            },
+                                            "features": {
+                                                "maxItemsOne": false
+                                            },
+                                            "git_dependency": {
+                                                "maxItemsOne": true,
+                                                "elem": {
+                                                    "fields": {
+                                                        "file_path_filters": {
+                                                            "maxItemsOne": false
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "package": {
+                                                "maxItemsOne": false
+                                            },
+                                            "primary_package": {
+                                                "maxItemsOne": true
+                                            },
+                                            "tenant_tags": {
+                                                "maxItemsOne": false
+                                            }
+                                        }
+                                    }
+                                },
+                                "apply_terraform_template_action": {
+                                    "maxItemsOne": false,
+                                    "elem": {
+                                        "fields": {
+                                            "action_template": {
+                                                "maxItemsOne": true
+                                            },
+                                            "advanced_options": {
+                                                "maxItemsOne": true
+                                            },
+                                            "aws_account": {
+                                                "maxItemsOne": true,
+                                                "elem": {
+                                                    "fields": {
+                                                        "role": {
+                                                            "maxItemsOne": true
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "azure_account": {
+                                                "maxItemsOne": true
+                                            },
+                                            "channels": {
+                                                "maxItemsOne": false
+                                            },
+                                            "container": {
+                                                "maxItemsOne": false
+                                            },
+                                            "environments": {
+                                                "maxItemsOne": false
+                                            },
+                                            "excluded_environments": {
+                                                "maxItemsOne": false
+                                            },
+                                            "features": {
+                                                "maxItemsOne": false
+                                            },
+                                            "git_dependency": {
+                                                "maxItemsOne": true,
+                                                "elem": {
+                                                    "fields": {
+                                                        "file_path_filters": {
+                                                            "maxItemsOne": false
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "google_cloud_account": {
+                                                "maxItemsOne": true
+                                            },
+                                            "package": {
+                                                "maxItemsOne": false
+                                            },
+                                            "primary_package": {
+                                                "maxItemsOne": true
+                                            },
+                                            "template": {
+                                                "maxItemsOne": true
+                                            },
+                                            "tenant_tags": {
+                                                "maxItemsOne": false
+                                            }
+                                        }
+                                    }
+                                },
+                                "deploy_kubernetes_secret_action": {
+                                    "maxItemsOne": false,
+                                    "elem": {
+                                        "fields": {
+                                            "action_template": {
+                                                "maxItemsOne": true
+                                            },
+                                            "channels": {
+                                                "maxItemsOne": false
+                                            },
+                                            "container": {
+                                                "maxItemsOne": false
+                                            },
+                                            "environments": {
+                                                "maxItemsOne": false
+                                            },
+                                            "excluded_environments": {
+                                                "maxItemsOne": false
+                                            },
+                                            "features": {
+                                                "maxItemsOne": false
+                                            },
+                                            "git_dependency": {
+                                                "maxItemsOne": true,
+                                                "elem": {
+                                                    "fields": {
+                                                        "file_path_filters": {
+                                                            "maxItemsOne": false
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "package": {
+                                                "maxItemsOne": false
+                                            },
+                                            "tenant_tags": {
+                                                "maxItemsOne": false
+                                            }
+                                        }
+                                    }
+                                },
+                                "deploy_package_action": {
+                                    "maxItemsOne": false,
+                                    "elem": {
+                                        "fields": {
+                                            "action_template": {
+                                                "maxItemsOne": true
+                                            },
+                                            "channels": {
+                                                "maxItemsOne": false
+                                            },
+                                            "container": {
+                                                "maxItemsOne": false
+                                            },
+                                            "environments": {
+                                                "maxItemsOne": false
+                                            },
+                                            "excluded_environments": {
+                                                "maxItemsOne": false
+                                            },
+                                            "features": {
+                                                "maxItemsOne": false
+                                            },
+                                            "git_dependency": {
+                                                "maxItemsOne": true,
+                                                "elem": {
+                                                    "fields": {
+                                                        "file_path_filters": {
+                                                            "maxItemsOne": false
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "package": {
+                                                "maxItemsOne": false
+                                            },
+                                            "primary_package": {
+                                                "maxItemsOne": true
+                                            },
+                                            "tenant_tags": {
+                                                "maxItemsOne": false
+                                            },
+                                            "windows_service": {
+                                                "maxItemsOne": true
+                                            }
+                                        }
+                                    }
+                                },
+                                "deploy_windows_service_action": {
+                                    "maxItemsOne": false,
+                                    "elem": {
+                                        "fields": {
+                                            "action_template": {
+                                                "maxItemsOne": true
+                                            },
+                                            "channels": {
+                                                "maxItemsOne": false
+                                            },
+                                            "container": {
+                                                "maxItemsOne": false
+                                            },
+                                            "environments": {
+                                                "maxItemsOne": false
+                                            },
+                                            "excluded_environments": {
+                                                "maxItemsOne": false
+                                            },
+                                            "features": {
+                                                "maxItemsOne": false
+                                            },
+                                            "git_dependency": {
+                                                "maxItemsOne": true,
+                                                "elem": {
+                                                    "fields": {
+                                                        "file_path_filters": {
+                                                            "maxItemsOne": false
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "package": {
+                                                "maxItemsOne": false
+                                            },
+                                            "primary_package": {
+                                                "maxItemsOne": true
+                                            },
+                                            "tenant_tags": {
+                                                "maxItemsOne": false
+                                            }
+                                        }
+                                    }
+                                },
+                                "manual_intervention_action": {
+                                    "maxItemsOne": false,
+                                    "elem": {
+                                        "fields": {
+                                            "action_template": {
+                                                "maxItemsOne": true
+                                            },
+                                            "channels": {
+                                                "maxItemsOne": false
+                                            },
+                                            "container": {
+                                                "maxItemsOne": false
+                                            },
+                                            "environments": {
+                                                "maxItemsOne": false
+                                            },
+                                            "excluded_environments": {
+                                                "maxItemsOne": false
+                                            },
+                                            "features": {
+                                                "maxItemsOne": false
+                                            },
+                                            "git_dependency": {
+                                                "maxItemsOne": true,
+                                                "elem": {
+                                                    "fields": {
+                                                        "file_path_filters": {
+                                                            "maxItemsOne": false
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "package": {
+                                                "maxItemsOne": false
+                                            },
+                                            "tenant_tags": {
+                                                "maxItemsOne": false
+                                            }
+                                        }
+                                    }
+                                },
+                                "run_kubectl_script_action": {
+                                    "maxItemsOne": false,
+                                    "elem": {
+                                        "fields": {
+                                            "action_template": {
+                                                "maxItemsOne": true
+                                            },
+                                            "channels": {
+                                                "maxItemsOne": false
+                                            },
+                                            "container": {
+                                                "maxItemsOne": false
+                                            },
+                                            "environments": {
+                                                "maxItemsOne": false
+                                            },
+                                            "excluded_environments": {
+                                                "maxItemsOne": false
+                                            },
+                                            "features": {
+                                                "maxItemsOne": false
+                                            },
+                                            "git_dependency": {
+                                                "maxItemsOne": true,
+                                                "elem": {
+                                                    "fields": {
+                                                        "file_path_filters": {
+                                                            "maxItemsOne": false
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "package": {
+                                                "maxItemsOne": false
+                                            },
+                                            "primary_package": {
+                                                "maxItemsOne": true
+                                            },
+                                            "tenant_tags": {
+                                                "maxItemsOne": false
+                                            }
+                                        }
+                                    }
+                                },
+                                "run_script_action": {
+                                    "maxItemsOne": false,
+                                    "elem": {
+                                        "fields": {
+                                            "action_template": {
+                                                "maxItemsOne": true
+                                            },
+                                            "channels": {
+                                                "maxItemsOne": false
+                                            },
+                                            "container": {
+                                                "maxItemsOne": false
+                                            },
+                                            "environments": {
+                                                "maxItemsOne": false
+                                            },
+                                            "excluded_environments": {
+                                                "maxItemsOne": false
+                                            },
+                                            "features": {
+                                                "maxItemsOne": false
+                                            },
+                                            "git_dependency": {
+                                                "maxItemsOne": true,
+                                                "elem": {
+                                                    "fields": {
+                                                        "file_path_filters": {
+                                                            "maxItemsOne": false
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "package": {
+                                                "maxItemsOne": false
+                                            },
+                                            "primary_package": {
+                                                "maxItemsOne": true
+                                            },
+                                            "tenant_tags": {
+                                                "maxItemsOne": false
+                                            }
+                                        }
+                                    }
+                                },
+                                "target_roles": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "octopusdeploy_scoped_user_role": {
+                "current": "octopusdeploy:index/scopedUserRole:ScopedUserRole",
+                "fields": {
+                    "environment_ids": {
+                        "maxItemsOne": false
+                    },
+                    "project_group_ids": {
+                        "maxItemsOne": false
+                    },
+                    "project_ids": {
+                        "maxItemsOne": false
+                    },
+                    "tenant_ids": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "octopusdeploy_ssh_connection_deployment_target": {
+                "current": "octopusdeploy:index/sshConnectionDeploymentTarget:SshConnectionDeploymentTarget",
+                "fields": {
+                    "endpoint": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "authentication": {
+                                    "maxItemsOne": true
+                                },
+                                "container": {
+                                    "maxItemsOne": false
+                                },
+                                "destination": {
+                                    "maxItemsOne": false
+                                },
+                                "tentacle_version_details": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "environments": {
+                        "maxItemsOne": false
+                    },
+                    "roles": {
+                        "maxItemsOne": false
+                    },
+                    "tenant_tags": {
+                        "maxItemsOne": false
+                    },
+                    "tenants": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "octopusdeploy_ssh_key_account": {
+                "current": "octopusdeploy:index/sshKeyAccount:SshKeyAccount",
+                "fields": {
+                    "environments": {
+                        "maxItemsOne": false
+                    },
+                    "tenant_tags": {
+                        "maxItemsOne": false
+                    },
+                    "tenants": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "octopusdeploy_static_worker_pool": {
+                "current": "octopusdeploy:index/staticWorkerPool:StaticWorkerPool"
+            },
+            "octopusdeploy_team": {
+                "current": "octopusdeploy:index/team:Team",
+                "fields": {
+                    "external_security_group": {
+                        "maxItemsOne": false
+                    },
+                    "user_role": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "environment_ids": {
+                                    "maxItemsOne": false
+                                },
+                                "project_group_ids": {
+                                    "maxItemsOne": false
+                                },
+                                "project_ids": {
+                                    "maxItemsOne": false
+                                },
+                                "tenant_ids": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "users": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "octopusdeploy_token_account": {
+                "current": "octopusdeploy:index/tokenAccount:TokenAccount",
+                "fields": {
+                    "environments": {
+                        "maxItemsOne": false
+                    },
+                    "tenant_tags": {
+                        "maxItemsOne": false
+                    },
+                    "tenants": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "octopusdeploy_user": {
+                "current": "octopusdeploy:index/user:User",
+                "fields": {
+                    "identity": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "claim": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "octopusdeploy_user_role": {
+                "current": "octopusdeploy:index/userRole:UserRole",
+                "fields": {
+                    "granted_space_permissions": {
+                        "maxItemsOne": false
+                    },
+                    "granted_system_permissions": {
+                        "maxItemsOne": false
+                    },
+                    "space_permission_descriptions": {
+                        "maxItemsOne": false
+                    },
+                    "supported_restrictions": {
+                        "maxItemsOne": false
+                    },
+                    "system_permission_descriptions": {
+                        "maxItemsOne": false
+                    }
+                }
+            }
+        },
+        "datasources": {
+            "octopusdeploy_accounts": {
+                "current": "octopusdeploy:index/getAccounts:getAccounts",
+                "fields": {
+                    "accounts": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "environments": {
+                                    "maxItemsOne": false
+                                },
+                                "tenant_tags": {
+                                    "maxItemsOne": false
+                                },
+                                "tenants": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "ids": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "octopusdeploy_azure_cloud_service_deployment_targets": {
+                "current": "octopusdeploy:index/getAzureCloudServiceDeploymentTargets:getAzureCloudServiceDeploymentTargets",
+                "fields": {
+                    "azure_cloud_service_deployment_targets": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "endpoint": {
+                                    "maxItemsOne": false,
+                                    "elem": {
+                                        "fields": {
+                                            "authentication": {
+                                                "maxItemsOne": true
+                                            },
+                                            "container": {
+                                                "maxItemsOne": false
+                                            },
+                                            "destination": {
+                                                "maxItemsOne": false
+                                            },
+                                            "tentacle_version_details": {
+                                                "maxItemsOne": false
+                                            }
+                                        }
+                                    }
+                                },
+                                "environments": {
+                                    "maxItemsOne": false
+                                },
+                                "roles": {
+                                    "maxItemsOne": false
+                                },
+                                "tenant_tags": {
+                                    "maxItemsOne": false
+                                },
+                                "tenants": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "environments": {
+                        "maxItemsOne": false
+                    },
+                    "health_statuses": {
+                        "maxItemsOne": false
+                    },
+                    "ids": {
+                        "maxItemsOne": false
+                    },
+                    "roles": {
+                        "maxItemsOne": false
+                    },
+                    "shell_names": {
+                        "maxItemsOne": false
+                    },
+                    "tenant_tags": {
+                        "maxItemsOne": false
+                    },
+                    "tenants": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "octopusdeploy_azure_service_fabric_cluster_deployment_targets": {
+                "current": "octopusdeploy:index/getAzureServiceFabricClusterDeploymentTargets:getAzureServiceFabricClusterDeploymentTargets",
+                "fields": {
+                    "azure_service_fabric_cluster_deployment_targets": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "endpoint": {
+                                    "maxItemsOne": false,
+                                    "elem": {
+                                        "fields": {
+                                            "authentication": {
+                                                "maxItemsOne": true
+                                            },
+                                            "container": {
+                                                "maxItemsOne": false
+                                            },
+                                            "destination": {
+                                                "maxItemsOne": false
+                                            },
+                                            "tentacle_version_details": {
+                                                "maxItemsOne": false
+                                            }
+                                        }
+                                    }
+                                },
+                                "environments": {
+                                    "maxItemsOne": false
+                                },
+                                "roles": {
+                                    "maxItemsOne": false
+                                },
+                                "tenant_tags": {
+                                    "maxItemsOne": false
+                                },
+                                "tenants": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "environments": {
+                        "maxItemsOne": false
+                    },
+                    "health_statuses": {
+                        "maxItemsOne": false
+                    },
+                    "ids": {
+                        "maxItemsOne": false
+                    },
+                    "roles": {
+                        "maxItemsOne": false
+                    },
+                    "shell_names": {
+                        "maxItemsOne": false
+                    },
+                    "tenant_tags": {
+                        "maxItemsOne": false
+                    },
+                    "tenants": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "octopusdeploy_azure_web_app_deployment_targets": {
+                "current": "octopusdeploy:index/getAzureWebAppDeploymentTargets:getAzureWebAppDeploymentTargets",
+                "fields": {
+                    "azure_web_app_deployment_targets": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "endpoint": {
+                                    "maxItemsOne": false,
+                                    "elem": {
+                                        "fields": {
+                                            "authentication": {
+                                                "maxItemsOne": true
+                                            },
+                                            "container": {
+                                                "maxItemsOne": false
+                                            },
+                                            "destination": {
+                                                "maxItemsOne": false
+                                            },
+                                            "tentacle_version_details": {
+                                                "maxItemsOne": false
+                                            }
+                                        }
+                                    }
+                                },
+                                "environments": {
+                                    "maxItemsOne": false
+                                },
+                                "roles": {
+                                    "maxItemsOne": false
+                                },
+                                "tenant_tags": {
+                                    "maxItemsOne": false
+                                },
+                                "tenants": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "environments": {
+                        "maxItemsOne": false
+                    },
+                    "health_statuses": {
+                        "maxItemsOne": false
+                    },
+                    "ids": {
+                        "maxItemsOne": false
+                    },
+                    "roles": {
+                        "maxItemsOne": false
+                    },
+                    "shell_names": {
+                        "maxItemsOne": false
+                    },
+                    "tenant_tags": {
+                        "maxItemsOne": false
+                    },
+                    "tenants": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "octopusdeploy_certificates": {
+                "current": "octopusdeploy:index/getCertificates:getCertificates",
+                "fields": {
+                    "certificates": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "environments": {
+                                    "maxItemsOne": false
+                                },
+                                "subject_alternative_names": {
+                                    "maxItemsOne": false
+                                },
+                                "tenant_tags": {
+                                    "maxItemsOne": false
+                                },
+                                "tenants": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "ids": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "octopusdeploy_channels": {
+                "current": "octopusdeploy:index/getChannels:getChannels",
+                "fields": {
+                    "channels": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "rule": {
+                                    "maxItemsOne": false,
+                                    "elem": {
+                                        "fields": {
+                                            "action_package": {
+                                                "maxItemsOne": false
+                                            }
+                                        }
+                                    }
+                                },
+                                "tenant_tags": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "ids": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "octopusdeploy_cloud_region_deployment_targets": {
+                "current": "octopusdeploy:index/getCloudRegionDeploymentTargets:getCloudRegionDeploymentTargets",
+                "fields": {
+                    "cloud_region_deployment_targets": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "endpoint": {
+                                    "maxItemsOne": false,
+                                    "elem": {
+                                        "fields": {
+                                            "authentication": {
+                                                "maxItemsOne": true
+                                            },
+                                            "container": {
+                                                "maxItemsOne": false
+                                            },
+                                            "destination": {
+                                                "maxItemsOne": false
+                                            },
+                                            "tentacle_version_details": {
+                                                "maxItemsOne": false
+                                            }
+                                        }
+                                    }
+                                },
+                                "environments": {
+                                    "maxItemsOne": false
+                                },
+                                "roles": {
+                                    "maxItemsOne": false
+                                },
+                                "tenant_tags": {
+                                    "maxItemsOne": false
+                                },
+                                "tenants": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "environments": {
+                        "maxItemsOne": false
+                    },
+                    "health_statuses": {
+                        "maxItemsOne": false
+                    },
+                    "ids": {
+                        "maxItemsOne": false
+                    },
+                    "roles": {
+                        "maxItemsOne": false
+                    },
+                    "shell_names": {
+                        "maxItemsOne": false
+                    },
+                    "tenant_tags": {
+                        "maxItemsOne": false
+                    },
+                    "tenants": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "octopusdeploy_deployment_targets": {
+                "current": "octopusdeploy:index/getDeploymentTargets:getDeploymentTargets",
+                "fields": {
+                    "communication_styles": {
+                        "maxItemsOne": false
+                    },
+                    "deployment_targets": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "endpoint": {
+                                    "maxItemsOne": false,
+                                    "elem": {
+                                        "fields": {
+                                            "authentication": {
+                                                "maxItemsOne": true
+                                            },
+                                            "container": {
+                                                "maxItemsOne": false
+                                            },
+                                            "destination": {
+                                                "maxItemsOne": false
+                                            },
+                                            "tentacle_version_details": {
+                                                "maxItemsOne": false
+                                            }
+                                        }
+                                    }
+                                },
+                                "environments": {
+                                    "maxItemsOne": false
+                                },
+                                "roles": {
+                                    "maxItemsOne": false
+                                },
+                                "tenant_tags": {
+                                    "maxItemsOne": false
+                                },
+                                "tenants": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "environments": {
+                        "maxItemsOne": false
+                    },
+                    "health_statuses": {
+                        "maxItemsOne": false
+                    },
+                    "ids": {
+                        "maxItemsOne": false
+                    },
+                    "roles": {
+                        "maxItemsOne": false
+                    },
+                    "shell_names": {
+                        "maxItemsOne": false
+                    },
+                    "tenant_tags": {
+                        "maxItemsOne": false
+                    },
+                    "tenants": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "octopusdeploy_kubernetes_agent_deployment_targets": {
+                "current": "octopusdeploy:index/getKubernetesAgentDeploymentTargets:getKubernetesAgentDeploymentTargets",
+                "fields": {
+                    "environments": {
+                        "maxItemsOne": false
+                    },
+                    "health_statuses": {
+                        "maxItemsOne": false
+                    },
+                    "ids": {
+                        "maxItemsOne": false
+                    },
+                    "kubernetes_agent_deployment_targets": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "environments": {
+                                    "maxItemsOne": false
+                                },
+                                "roles": {
+                                    "maxItemsOne": false
+                                },
+                                "tenant_tags": {
+                                    "maxItemsOne": false
+                                },
+                                "tenants": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "roles": {
+                        "maxItemsOne": false
+                    },
+                    "shell_names": {
+                        "maxItemsOne": false
+                    },
+                    "tenant_tags": {
+                        "maxItemsOne": false
+                    },
+                    "tenants": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "octopusdeploy_kubernetes_agent_workers": {
+                "current": "octopusdeploy:index/getKubernetesAgentWorkers:getKubernetesAgentWorkers",
+                "fields": {
+                    "health_statuses": {
+                        "maxItemsOne": false
+                    },
+                    "ids": {
+                        "maxItemsOne": false
+                    },
+                    "kubernetes_agent_workers": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "worker_pool_ids": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "roles": {
+                        "maxItemsOne": false
+                    },
+                    "shell_names": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "octopusdeploy_kubernetes_cluster_deployment_targets": {
+                "current": "octopusdeploy:index/getKubernetesClusterDeploymentTargets:getKubernetesClusterDeploymentTargets",
+                "fields": {
+                    "environments": {
+                        "maxItemsOne": false
+                    },
+                    "health_statuses": {
+                        "maxItemsOne": false
+                    },
+                    "ids": {
+                        "maxItemsOne": false
+                    },
+                    "kubernetes_cluster_deployment_targets": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "authentication": {
+                                    "maxItemsOne": false
+                                },
+                                "aws_account_authentication": {
+                                    "maxItemsOne": false
+                                },
+                                "azure_service_principal_authentication": {
+                                    "maxItemsOne": false
+                                },
+                                "certificate_authentication": {
+                                    "maxItemsOne": false
+                                },
+                                "container": {
+                                    "maxItemsOne": false
+                                },
+                                "endpoint": {
+                                    "maxItemsOne": false,
+                                    "elem": {
+                                        "fields": {
+                                            "authentication": {
+                                                "maxItemsOne": true
+                                            },
+                                            "container": {
+                                                "maxItemsOne": false
+                                            },
+                                            "destination": {
+                                                "maxItemsOne": false
+                                            },
+                                            "tentacle_version_details": {
+                                                "maxItemsOne": false
+                                            }
+                                        }
+                                    }
+                                },
+                                "environments": {
+                                    "maxItemsOne": false
+                                },
+                                "gcp_account_authentication": {
+                                    "maxItemsOne": false
+                                },
+                                "pod_authentication": {
+                                    "maxItemsOne": false
+                                },
+                                "roles": {
+                                    "maxItemsOne": false
+                                },
+                                "tenant_tags": {
+                                    "maxItemsOne": false
+                                },
+                                "tenants": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "roles": {
+                        "maxItemsOne": false
+                    },
+                    "shell_names": {
+                        "maxItemsOne": false
+                    },
+                    "tenant_tags": {
+                        "maxItemsOne": false
+                    },
+                    "tenants": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "octopusdeploy_listening_tentacle_deployment_targets": {
+                "current": "octopusdeploy:index/getListeningTentacleDeploymentTargets:getListeningTentacleDeploymentTargets",
+                "fields": {
+                    "environments": {
+                        "maxItemsOne": false
+                    },
+                    "health_statuses": {
+                        "maxItemsOne": false
+                    },
+                    "ids": {
+                        "maxItemsOne": false
+                    },
+                    "listening_tentacle_deployment_targets": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "environments": {
+                                    "maxItemsOne": false
+                                },
+                                "roles": {
+                                    "maxItemsOne": false
+                                },
+                                "tenant_tags": {
+                                    "maxItemsOne": false
+                                },
+                                "tenants": {
+                                    "maxItemsOne": false
+                                },
+                                "tentacle_version_details": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "roles": {
+                        "maxItemsOne": false
+                    },
+                    "shell_names": {
+                        "maxItemsOne": false
+                    },
+                    "tenant_tags": {
+                        "maxItemsOne": false
+                    },
+                    "tenants": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "octopusdeploy_machine": {
+                "current": "octopusdeploy:index/getMachine:getMachine",
+                "fields": {
+                    "environments": {
+                        "maxItemsOne": false
+                    },
+                    "roles": {
+                        "maxItemsOne": false
+                    },
+                    "tenantids": {
+                        "maxItemsOne": false
+                    },
+                    "tenanttags": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "octopusdeploy_machine_policies": {
+                "current": "octopusdeploy:index/getMachinePolicies:getMachinePolicies",
+                "fields": {
+                    "ids": {
+                        "maxItemsOne": false
+                    },
+                    "machine_policies": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "machine_cleanup_policy": {
+                                    "maxItemsOne": false
+                                },
+                                "machine_connectivity_policy": {
+                                    "maxItemsOne": false
+                                },
+                                "machine_health_check_policy": {
+                                    "maxItemsOne": false,
+                                    "elem": {
+                                        "fields": {
+                                            "bash_health_check_policy": {
+                                                "maxItemsOne": true
+                                            },
+                                            "powershell_health_check_policy": {
+                                                "maxItemsOne": true
+                                            }
+                                        }
+                                    }
+                                },
+                                "machine_update_policy": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "octopusdeploy_offline_package_drop_deployment_targets": {
+                "current": "octopusdeploy:index/getOfflinePackageDropDeploymentTargets:getOfflinePackageDropDeploymentTargets",
+                "fields": {
+                    "environments": {
+                        "maxItemsOne": false
+                    },
+                    "health_statuses": {
+                        "maxItemsOne": false
+                    },
+                    "ids": {
+                        "maxItemsOne": false
+                    },
+                    "offline_package_drop_deployment_targets": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "destination": {
+                                    "maxItemsOne": false
+                                },
+                                "endpoint": {
+                                    "maxItemsOne": false,
+                                    "elem": {
+                                        "fields": {
+                                            "authentication": {
+                                                "maxItemsOne": true
+                                            },
+                                            "container": {
+                                                "maxItemsOne": false
+                                            },
+                                            "destination": {
+                                                "maxItemsOne": false
+                                            },
+                                            "tentacle_version_details": {
+                                                "maxItemsOne": false
+                                            }
+                                        }
+                                    }
+                                },
+                                "environments": {
+                                    "maxItemsOne": false
+                                },
+                                "roles": {
+                                    "maxItemsOne": false
+                                },
+                                "tenant_tags": {
+                                    "maxItemsOne": false
+                                },
+                                "tenants": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "roles": {
+                        "maxItemsOne": false
+                    },
+                    "shell_names": {
+                        "maxItemsOne": false
+                    },
+                    "tenant_tags": {
+                        "maxItemsOne": false
+                    },
+                    "tenants": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "octopusdeploy_polling_tentacle_deployment_targets": {
+                "current": "octopusdeploy:index/getPollingTentacleDeploymentTargets:getPollingTentacleDeploymentTargets",
+                "fields": {
+                    "environments": {
+                        "maxItemsOne": false
+                    },
+                    "health_statuses": {
+                        "maxItemsOne": false
+                    },
+                    "ids": {
+                        "maxItemsOne": false
+                    },
+                    "polling_tentacle_deployment_targets": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "endpoint": {
+                                    "maxItemsOne": false,
+                                    "elem": {
+                                        "fields": {
+                                            "authentication": {
+                                                "maxItemsOne": true
+                                            },
+                                            "container": {
+                                                "maxItemsOne": false
+                                            },
+                                            "destination": {
+                                                "maxItemsOne": false
+                                            },
+                                            "tentacle_version_details": {
+                                                "maxItemsOne": false
+                                            }
+                                        }
+                                    }
+                                },
+                                "environments": {
+                                    "maxItemsOne": false
+                                },
+                                "roles": {
+                                    "maxItemsOne": false
+                                },
+                                "tenant_tags": {
+                                    "maxItemsOne": false
+                                },
+                                "tenants": {
+                                    "maxItemsOne": false
+                                },
+                                "tentacle_version_details": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "roles": {
+                        "maxItemsOne": false
+                    },
+                    "shell_names": {
+                        "maxItemsOne": false
+                    },
+                    "tenant_tags": {
+                        "maxItemsOne": false
+                    },
+                    "tenants": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "octopusdeploy_ssh_connection_deployment_targets": {
+                "current": "octopusdeploy:index/getSshConnectionDeploymentTargets:getSshConnectionDeploymentTargets",
+                "fields": {
+                    "environments": {
+                        "maxItemsOne": false
+                    },
+                    "health_statuses": {
+                        "maxItemsOne": false
+                    },
+                    "ids": {
+                        "maxItemsOne": false
+                    },
+                    "roles": {
+                        "maxItemsOne": false
+                    },
+                    "shell_names": {
+                        "maxItemsOne": false
+                    },
+                    "ssh_connection_deployment_targets": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "endpoint": {
+                                    "maxItemsOne": false,
+                                    "elem": {
+                                        "fields": {
+                                            "authentication": {
+                                                "maxItemsOne": true
+                                            },
+                                            "container": {
+                                                "maxItemsOne": false
+                                            },
+                                            "destination": {
+                                                "maxItemsOne": false
+                                            },
+                                            "tentacle_version_details": {
+                                                "maxItemsOne": false
+                                            }
+                                        }
+                                    }
+                                },
+                                "environments": {
+                                    "maxItemsOne": false
+                                },
+                                "roles": {
+                                    "maxItemsOne": false
+                                },
+                                "tenant_tags": {
+                                    "maxItemsOne": false
+                                },
+                                "tenants": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    },
+                    "tenant_tags": {
+                        "maxItemsOne": false
+                    },
+                    "tenants": {
+                        "maxItemsOne": false
+                    }
+                }
+            },
+            "octopusdeploy_teams": {
+                "current": "octopusdeploy:index/getTeams:getTeams",
+                "fields": {
+                    "ids": {
+                        "maxItemsOne": false
+                    },
+                    "spaces": {
+                        "maxItemsOne": false
+                    },
+                    "teams": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "external_security_group": {
+                                    "maxItemsOne": false
+                                },
+                                "users": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "octopusdeploy_user_roles": {
+                "current": "octopusdeploy:index/getUserRoles:getUserRoles",
+                "fields": {
+                    "ids": {
+                        "maxItemsOne": false
+                    },
+                    "user_roles": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "granted_space_permissions": {
+                                    "maxItemsOne": false
+                                },
+                                "granted_system_permissions": {
+                                    "maxItemsOne": false
+                                },
+                                "space_permission_descriptions": {
+                                    "maxItemsOne": false
+                                },
+                                "supported_restrictions": {
+                                    "maxItemsOne": false
+                                },
+                                "system_permission_descriptions": {
+                                    "maxItemsOne": false
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "octopusdeploy_users": {
+                "current": "octopusdeploy:index/getUsers:getUsers",
+                "fields": {
+                    "ids": {
+                        "maxItemsOne": false
+                    },
+                    "users": {
+                        "maxItemsOne": false,
+                        "elem": {
+                            "fields": {
+                                "identity": {
+                                    "maxItemsOne": false,
+                                    "elem": {
+                                        "fields": {
+                                            "claim": {
+                                                "maxItemsOne": false
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "octopusdeploy_worker_pools": {
+                "current": "octopusdeploy:index/getWorkerPools:getWorkerPools",
+                "fields": {
+                    "ids": {
+                        "maxItemsOne": false
+                    },
+                    "worker_pools": {
+                        "maxItemsOne": false
+                    }
+                }
+            }
+        }
+    },
+    "auto-settings": {}
+}

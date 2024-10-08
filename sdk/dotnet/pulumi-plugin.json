@@ -1,0 +1,5 @@
+{
+  "resource": true,
+  "name": "octopusdeploy",
+  "server": "https://github.com/OctopusDeploy/terraform-provider-octopusdeploy/releases"
+}
