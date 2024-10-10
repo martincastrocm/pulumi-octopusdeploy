@@ -15,12 +15,14 @@
 package main
 
 import (
-	octopusdeploy "github.com/pulumi/pulumi-octopus/provider"
-	"github.com/pulumi/pulumi-octopus/provider/pkg/version"
-	"github.com/pulumi/pulumi-terraform-bridge/v3/pkg/tfgen"
+	octopusdeploy_framework "github.com/pulumi/pulumi-octopus/provider"
+	"github.com/pulumi/pulumi-terraform-bridge/pf/tfgen"
 )
 
 func main() {
-	// Modify the path to point to the new provider
-	tfgen.Main("octopusdeploy", version.Version, octopusdeploy.Provider())
+	// No version argument needed anymore
+	tfgen.Main(
+		"octopusdeploy",
+		octopusdeploy_framework.Provider(),
+	)
 }

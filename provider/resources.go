@@ -20,12 +20,12 @@ import (
 	// Allow embedding bridge-metadata.json in the provider.
 	_ "embed"
 
+	pfbridge "github.com/pulumi/pulumi-terraform-bridge/pf/tfbridge"
 	"github.com/pulumi/pulumi-terraform-bridge/v3/pkg/tfbridge"
 	"github.com/pulumi/pulumi-terraform-bridge/v3/pkg/tfbridge/tokens"
-	shimv2 "github.com/pulumi/pulumi-terraform-bridge/v3/pkg/tfshim/sdk-v2"
 
 	// Replace this provider with the provider you are bridging.
-	octopusdeploy "github.com/OctopusDeploy/terraform-provider-octopusdeploy/octopusdeploy"
+	octopusdeploy_framework "github.com/OctopusDeploy/terraform-provider-octopusdeploy/octopusdeploy_framework"
 
 	"github.com/pulumi/pulumi-octopus/provider/pkg/version"
 )
@@ -45,7 +45,7 @@ var metadata []byte
 // Provider returns additional overlaid schema and metadata associated with the provider.
 func Provider() tfbridge.ProviderInfo {
 	prov := tfbridge.ProviderInfo{
-		P: shimv2.NewProvider(octopusdeploy.Provider()),
+		P: pfbridge.ShimProvider(octopusdeploy_framework.NewOctopusDeployFrameworkProvider()),
 
 		Name:        "octopusdeploy",
 		Version:     version.Version,

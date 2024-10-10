@@ -21,74 +21,56 @@ func (m *module) Version() semver.Version {
 
 func (m *module) Construct(ctx *pulumi.Context, name, typ, urn string) (r pulumi.Resource, err error) {
 	switch typ {
-	case "octopusdeploy:index/awsAccount:AwsAccount":
-		r = &AwsAccount{}
-	case "octopusdeploy:index/awsOpenidConnectAccount:AwsOpenidConnectAccount":
-		r = &AwsOpenidConnectAccount{}
-	case "octopusdeploy:index/azureCloudServiceDeploymentTarget:AzureCloudServiceDeploymentTarget":
-		r = &AzureCloudServiceDeploymentTarget{}
-	case "octopusdeploy:index/azureOpenidConnect:AzureOpenidConnect":
-		r = &AzureOpenidConnect{}
-	case "octopusdeploy:index/azureServiceFabricClusterDeploymentTarget:AzureServiceFabricClusterDeploymentTarget":
-		r = &AzureServiceFabricClusterDeploymentTarget{}
-	case "octopusdeploy:index/azureServicePrincipal:AzureServicePrincipal":
-		r = &AzureServicePrincipal{}
-	case "octopusdeploy:index/azureSubscriptionAccount:AzureSubscriptionAccount":
-		r = &AzureSubscriptionAccount{}
-	case "octopusdeploy:index/azureWebAppDeploymentTarget:AzureWebAppDeploymentTarget":
-		r = &AzureWebAppDeploymentTarget{}
-	case "octopusdeploy:index/certificate:Certificate":
-		r = &Certificate{}
-	case "octopusdeploy:index/channel:Channel":
-		r = &Channel{}
-	case "octopusdeploy:index/cloudRegionDeploymentTarget:CloudRegionDeploymentTarget":
-		r = &CloudRegionDeploymentTarget{}
-	case "octopusdeploy:index/deploymentProcess:DeploymentProcess":
-		r = &DeploymentProcess{}
-	case "octopusdeploy:index/dynamicWorkerPool:DynamicWorkerPool":
-		r = &DynamicWorkerPool{}
-	case "octopusdeploy:index/externalFeedCreateReleaseTrigger:ExternalFeedCreateReleaseTrigger":
-		r = &ExternalFeedCreateReleaseTrigger{}
-	case "octopusdeploy:index/gcpAccount:GcpAccount":
-		r = &GcpAccount{}
-	case "octopusdeploy:index/kubernetesAgentDeploymentTarget:KubernetesAgentDeploymentTarget":
-		r = &KubernetesAgentDeploymentTarget{}
-	case "octopusdeploy:index/kubernetesAgentWorker:KubernetesAgentWorker":
-		r = &KubernetesAgentWorker{}
-	case "octopusdeploy:index/kubernetesClusterDeploymentTarget:KubernetesClusterDeploymentTarget":
-		r = &KubernetesClusterDeploymentTarget{}
-	case "octopusdeploy:index/listeningTentacleDeploymentTarget:ListeningTentacleDeploymentTarget":
-		r = &ListeningTentacleDeploymentTarget{}
-	case "octopusdeploy:index/machinePolicy:MachinePolicy":
-		r = &MachinePolicy{}
-	case "octopusdeploy:index/offlinePackageDropDeploymentTarget:OfflinePackageDropDeploymentTarget":
-		r = &OfflinePackageDropDeploymentTarget{}
-	case "octopusdeploy:index/pollingSubscriptionId:PollingSubscriptionId":
-		r = &PollingSubscriptionId{}
-	case "octopusdeploy:index/pollingTentacleDeploymentTarget:PollingTentacleDeploymentTarget":
-		r = &PollingTentacleDeploymentTarget{}
-	case "octopusdeploy:index/projectDeploymentTargetTrigger:ProjectDeploymentTargetTrigger":
-		r = &ProjectDeploymentTargetTrigger{}
-	case "octopusdeploy:index/projectScheduledTrigger:ProjectScheduledTrigger":
-		r = &ProjectScheduledTrigger{}
-	case "octopusdeploy:index/runbookProcess:RunbookProcess":
-		r = &RunbookProcess{}
-	case "octopusdeploy:index/scopedUserRole:ScopedUserRole":
-		r = &ScopedUserRole{}
-	case "octopusdeploy:index/sshConnectionDeploymentTarget:SshConnectionDeploymentTarget":
-		r = &SshConnectionDeploymentTarget{}
-	case "octopusdeploy:index/sshKeyAccount:SshKeyAccount":
-		r = &SshKeyAccount{}
-	case "octopusdeploy:index/staticWorkerPool:StaticWorkerPool":
-		r = &StaticWorkerPool{}
-	case "octopusdeploy:index/team:Team":
-		r = &Team{}
-	case "octopusdeploy:index/tokenAccount:TokenAccount":
-		r = &TokenAccount{}
-	case "octopusdeploy:index/user:User":
-		r = &User{}
-	case "octopusdeploy:index/userRole:UserRole":
-		r = &UserRole{}
+	case "octopusdeploy:index/artifactoryGenericFeed:ArtifactoryGenericFeed":
+		r = &ArtifactoryGenericFeed{}
+	case "octopusdeploy:index/awsElasticContainerRegistry:AwsElasticContainerRegistry":
+		r = &AwsElasticContainerRegistry{}
+	case "octopusdeploy:index/dockerContainerRegistry:DockerContainerRegistry":
+		r = &DockerContainerRegistry{}
+	case "octopusdeploy:index/environment:Environment":
+		r = &Environment{}
+	case "octopusdeploy:index/gitCredential:GitCredential":
+		r = &GitCredential{}
+	case "octopusdeploy:index/githubRepositoryFeed:GithubRepositoryFeed":
+		r = &GithubRepositoryFeed{}
+	case "octopusdeploy:index/helmFeed:HelmFeed":
+		r = &HelmFeed{}
+	case "octopusdeploy:index/libraryVariableSet:LibraryVariableSet":
+		r = &LibraryVariableSet{}
+	case "octopusdeploy:index/lifecycle:Lifecycle":
+		r = &Lifecycle{}
+	case "octopusdeploy:index/mavenFeed:MavenFeed":
+		r = &MavenFeed{}
+	case "octopusdeploy:index/nugetFeed:NugetFeed":
+		r = &NugetFeed{}
+	case "octopusdeploy:index/project:Project":
+		r = &Project{}
+	case "octopusdeploy:index/projectGroup:ProjectGroup":
+		r = &ProjectGroup{}
+	case "octopusdeploy:index/runbook:Runbook":
+		r = &Runbook{}
+	case "octopusdeploy:index/scriptModule:ScriptModule":
+		r = &ScriptModule{}
+	case "octopusdeploy:index/space:Space":
+		r = &Space{}
+	case "octopusdeploy:index/tag:Tag":
+		r = &Tag{}
+	case "octopusdeploy:index/tagSet:TagSet":
+		r = &TagSet{}
+	case "octopusdeploy:index/tenant:Tenant":
+		r = &Tenant{}
+	case "octopusdeploy:index/tenantCommonVariable:TenantCommonVariable":
+		r = &TenantCommonVariable{}
+	case "octopusdeploy:index/tenantProject:TenantProject":
+		r = &TenantProject{}
+	case "octopusdeploy:index/tenantProjectVariable:TenantProjectVariable":
+		r = &TenantProjectVariable{}
+	case "octopusdeploy:index/tentacleCertificate:TentacleCertificate":
+		r = &TentacleCertificate{}
+	case "octopusdeploy:index/usernamePasswordAccount:UsernamePasswordAccount":
+		r = &UsernamePasswordAccount{}
+	case "octopusdeploy:index/variable:Variable":
+		r = &Variable{}
 	default:
 		return nil, fmt.Errorf("unknown resource type: %s", typ)
 	}
@@ -122,172 +104,127 @@ func init() {
 	}
 	pulumi.RegisterResourceModule(
 		"octopusdeploy",
-		"index/awsAccount",
+		"index/artifactoryGenericFeed",
 		&module{version},
 	)
 	pulumi.RegisterResourceModule(
 		"octopusdeploy",
-		"index/awsOpenidConnectAccount",
+		"index/awsElasticContainerRegistry",
 		&module{version},
 	)
 	pulumi.RegisterResourceModule(
 		"octopusdeploy",
-		"index/azureCloudServiceDeploymentTarget",
+		"index/dockerContainerRegistry",
 		&module{version},
 	)
 	pulumi.RegisterResourceModule(
 		"octopusdeploy",
-		"index/azureOpenidConnect",
+		"index/environment",
 		&module{version},
 	)
 	pulumi.RegisterResourceModule(
 		"octopusdeploy",
-		"index/azureServiceFabricClusterDeploymentTarget",
+		"index/gitCredential",
 		&module{version},
 	)
 	pulumi.RegisterResourceModule(
 		"octopusdeploy",
-		"index/azureServicePrincipal",
+		"index/githubRepositoryFeed",
 		&module{version},
 	)
 	pulumi.RegisterResourceModule(
 		"octopusdeploy",
-		"index/azureSubscriptionAccount",
+		"index/helmFeed",
 		&module{version},
 	)
 	pulumi.RegisterResourceModule(
 		"octopusdeploy",
-		"index/azureWebAppDeploymentTarget",
+		"index/libraryVariableSet",
 		&module{version},
 	)
 	pulumi.RegisterResourceModule(
 		"octopusdeploy",
-		"index/certificate",
+		"index/lifecycle",
 		&module{version},
 	)
 	pulumi.RegisterResourceModule(
 		"octopusdeploy",
-		"index/channel",
+		"index/mavenFeed",
 		&module{version},
 	)
 	pulumi.RegisterResourceModule(
 		"octopusdeploy",
-		"index/cloudRegionDeploymentTarget",
+		"index/nugetFeed",
 		&module{version},
 	)
 	pulumi.RegisterResourceModule(
 		"octopusdeploy",
-		"index/deploymentProcess",
+		"index/project",
 		&module{version},
 	)
 	pulumi.RegisterResourceModule(
 		"octopusdeploy",
-		"index/dynamicWorkerPool",
+		"index/projectGroup",
 		&module{version},
 	)
 	pulumi.RegisterResourceModule(
 		"octopusdeploy",
-		"index/externalFeedCreateReleaseTrigger",
+		"index/runbook",
 		&module{version},
 	)
 	pulumi.RegisterResourceModule(
 		"octopusdeploy",
-		"index/gcpAccount",
+		"index/scriptModule",
 		&module{version},
 	)
 	pulumi.RegisterResourceModule(
 		"octopusdeploy",
-		"index/kubernetesAgentDeploymentTarget",
+		"index/space",
 		&module{version},
 	)
 	pulumi.RegisterResourceModule(
 		"octopusdeploy",
-		"index/kubernetesAgentWorker",
+		"index/tag",
 		&module{version},
 	)
 	pulumi.RegisterResourceModule(
 		"octopusdeploy",
-		"index/kubernetesClusterDeploymentTarget",
+		"index/tagSet",
 		&module{version},
 	)
 	pulumi.RegisterResourceModule(
 		"octopusdeploy",
-		"index/listeningTentacleDeploymentTarget",
+		"index/tenant",
 		&module{version},
 	)
 	pulumi.RegisterResourceModule(
 		"octopusdeploy",
-		"index/machinePolicy",
+		"index/tenantCommonVariable",
 		&module{version},
 	)
 	pulumi.RegisterResourceModule(
 		"octopusdeploy",
-		"index/offlinePackageDropDeploymentTarget",
+		"index/tenantProject",
 		&module{version},
 	)
 	pulumi.RegisterResourceModule(
 		"octopusdeploy",
-		"index/pollingSubscriptionId",
+		"index/tenantProjectVariable",
 		&module{version},
 	)
 	pulumi.RegisterResourceModule(
 		"octopusdeploy",
-		"index/pollingTentacleDeploymentTarget",
+		"index/tentacleCertificate",
 		&module{version},
 	)
 	pulumi.RegisterResourceModule(
 		"octopusdeploy",
-		"index/projectDeploymentTargetTrigger",
+		"index/usernamePasswordAccount",
 		&module{version},
 	)
 	pulumi.RegisterResourceModule(
 		"octopusdeploy",
-		"index/projectScheduledTrigger",
-		&module{version},
-	)
-	pulumi.RegisterResourceModule(
-		"octopusdeploy",
-		"index/runbookProcess",
-		&module{version},
-	)
-	pulumi.RegisterResourceModule(
-		"octopusdeploy",
-		"index/scopedUserRole",
-		&module{version},
-	)
-	pulumi.RegisterResourceModule(
-		"octopusdeploy",
-		"index/sshConnectionDeploymentTarget",
-		&module{version},
-	)
-	pulumi.RegisterResourceModule(
-		"octopusdeploy",
-		"index/sshKeyAccount",
-		&module{version},
-	)
-	pulumi.RegisterResourceModule(
-		"octopusdeploy",
-		"index/staticWorkerPool",
-		&module{version},
-	)
-	pulumi.RegisterResourceModule(
-		"octopusdeploy",
-		"index/team",
-		&module{version},
-	)
-	pulumi.RegisterResourceModule(
-		"octopusdeploy",
-		"index/tokenAccount",
-		&module{version},
-	)
-	pulumi.RegisterResourceModule(
-		"octopusdeploy",
-		"index/user",
-		&module{version},
-	)
-	pulumi.RegisterResourceModule(
-		"octopusdeploy",
-		"index/userRole",
+		"index/variable",
 		&module{version},
 	)
 	pulumi.RegisterResourcePackage(
